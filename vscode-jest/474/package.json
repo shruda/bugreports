@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "version": "0.0.0",
+  "name": "vscode-jest-issue-474",
+  "devDependencies": {
+    "@babel/core": "*",
+    "@babel/preset-env": "*",
+    "babel-jest": "*",
+    "jest": "*",
+    "jest-chain": "*"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
