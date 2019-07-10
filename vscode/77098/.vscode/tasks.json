@@ -1,0 +1,48 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558 
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Terminal 1",
+            "type": "shell",
+            "command": "echo terminal 1",
+            "presentation": {
+                "group": "all terminals"
+            }
+        },
+        {
+            "label": "Terminal 2",
+            "type": "shell",
+            "command": "echo terminal 2",
+            "presentation": {
+                "group": "all terminals"
+            }
+        },
+        {
+            "label": "Terminal 3",
+            "type": "shell",
+            "command": "echo terminal 3",
+            "presentation": {
+                "group": "all terminals"
+            }
+        },
+        {
+            "label": "Terminal 4",
+            "type": "shell",
+            "command": "echo terminal 4",
+            "presentation": {
+                "group": "all terminals"
+            }
+        },
+        {
+            "label": "Execute all Terminals",
+            "dependsOn": [
+                "Terminal 1",
+                "Terminal 2",
+                "Terminal 3",
+                "Terminal 4"
+            ]
+        }
+    ]
+}
